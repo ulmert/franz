@@ -1,0 +1,19 @@
+{
+    "header" : 
+    {
+        "platform" : "nutekt-digital",
+        "module" : "osc",
+        "api" : "1.1-0",
+        "dev_id" : 0,
+        "prg_id" : 0,
+        "version" : "1.0-0",
+        "name" : "Franz",
+        "num_param" : 4,
+        "params" : [
+        ["LVL1",      0, 9,  ""],
+        ["LVL2",      0, 9,  ""],
+        ["LVL3",      0, 9,  ""],
+        ["LVL4",      0, 9,  ""]
+    ]
+    }
+}
