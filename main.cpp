@@ -58,10 +58,15 @@ bool noteOn;
 
 #define FT (1.f / 48000.f)
 #define GAIN 0.5
-#define LVL_GAIN_MAX 0.8
 
 #define FOLD
 #define FOLDTHR 1.f
+
+#ifdef FOLD
+#define LVL_GAIN_MAX 1.0
+#else
+#define LVL_GAIN_MAX 0.8
+#endif
 
 #define NRAND 256
 float randTbl[NRAND];
